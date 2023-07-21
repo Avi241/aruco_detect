@@ -11,7 +11,7 @@ Please refer the following for the ['installation'](http://wiki.ros.org/Installa
 $ cd ~/catkin_ws/src
 $ git clone https://github.com/Avi241/aruco_detect.git
 $ cd ~/catkin_ws
-$ catkin build
+$ catkin_make
 ```
 
 # Run
