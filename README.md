@@ -31,6 +31,13 @@ $ rosrun aruco_detect drone_keyboard
 
 Press Z to takeoff.   Now you can control your drone with keyboars as shown in the Gui
 
+**Note:**
+
+Just in case if the drone_keyboard is not working with the simple.launch as expected then before running both the command run this command on both the terminals.
+
+```
+$ export GAZEBO_PLUGIN_PATH=$GAZEBO_PLUGIN_PATH:~/catkin_ws/src/aruco_detect/plugins
+```
 
 # For Aruco Detection and landing
 
